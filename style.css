@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(232, 183, 218);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(193, 202, 237);
+    position: sticky;
+    z-index: 99999;
+    border-radius: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+
+}
+
+.nav-links a:hover {
+    padding-bottom: 0.5rem;
+}
+
+.btn {
+    padding: 7px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: aliceblue;
+
+}
+
+.btn3 {
+    font-family: serif;
+    text-shadow: 13px 24px 38px rgba(66, 68, 90, 1);
+}
+
+.card-img h3 {
+    color: rgb(53, 45, 57);
+    padding: 20px;
+    font-family: serif;
+}
+
+.card-img {
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(180, 217, 245);
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 120px;
+    margin-top: 20px;
+
+
+
+}
+
+.card-img img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.heading {
+    margin: 20px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: rgb(246, 245, 243);
+
+}
+
+.heading span {
+    color: rgb(245, 37, 106);
+
+}
